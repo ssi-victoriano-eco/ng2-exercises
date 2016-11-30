@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { DndItemComponent } from './dnd-item/dnd-item.component';
+import { DndTargetComponent } from './dnd-target/dnd-target.component';
+import { DndMainComponent } from './dnd-main/dnd-main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    DndItemComponent,
+    DndTargetComponent,
+    DndMainComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +19,6 @@ import { AppComponent } from './app.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [DndMainComponent]
 })
 export class AppModule { }

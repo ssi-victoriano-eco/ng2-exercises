@@ -1,0 +1,6 @@
+.dnd-main, .dnd-main * {
+	box-sizing: border-box;
+}
+.dnd-main .dnd-items {
+	padding: 1em;
+}

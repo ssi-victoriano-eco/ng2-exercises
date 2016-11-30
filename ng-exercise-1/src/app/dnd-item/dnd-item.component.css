@@ -1,0 +1,15 @@
+.dnd-item {
+	display: inline-block;
+	width:100px;
+	height:70px;
+	line-height: 70px;
+	border:1px solid #ccc;
+	box-shadow:0 2px 5px rgba(0,0,0,0.3);
+	text-align: center;
+	margin: 5px;
+	border-radius: 3px;
+}
+
+.dnd-item:hover {
+	box-shadow:0 2px 5px rgba(0,0,0,0.5);
+}
